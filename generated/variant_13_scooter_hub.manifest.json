@@ -1,0 +1,32 @@
+{
+  "variantId": 13,
+  "slug": "scooter_hub",
+  "rows": 500000,
+  "seed": 13000081,
+  "errorRate": 0.05,
+  "rowOutcomes": {
+    "valid": 475077,
+    "column_count": 1979,
+    "type_percent_out_of_range": 3264,
+    "unknown_event": 3100,
+    "type_token_invalid": 11605,
+    "empty_event": 1266,
+    "type_positive_int_violation": 1854,
+    "type_int_malformed": 1855
+  },
+  "csv": "generated\\variant_13_scooter_hub.csv",
+  "entityRefs": {
+    "RETURN": {
+      "dangling_unknown": 3915,
+      "resolved": 159794,
+      "dangling_near_miss": 2500
+    },
+    "RENT_OUT": {
+      "created": 159838,
+      "duplicate": 6805
+    }
+  },
+  "liveEntitiesAtEnd": {
+    "rental": 44
+  }
+}
